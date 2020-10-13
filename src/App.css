@@ -14,19 +14,6 @@ body {
 }
 
 
-.header {
-    grid-area: h;
-    background-color: darkseagreen;
-}
-.header img {
-    width: 50px;
-}
-.nav {
-    grid-area: n;
-    background-color: tomato;
-}
 
-.content {
-    grid-area: c;
-    background-color: burlywood;
-}
+
+
