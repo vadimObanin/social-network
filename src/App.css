@@ -1,6 +1,7 @@
 body {
     background-color: #333541;
 }
+
 .app-wrapper {
     margin: 0 auto;
     width: 1200px;
@@ -13,6 +14,10 @@ body {
     "n c";
 }
 
+.app-wrapper-content {
+    grid-area: c;
+    background-color: burlywood;
+}
 
 
 
