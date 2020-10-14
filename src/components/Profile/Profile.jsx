@@ -1,7 +1,8 @@
 import React from "react";
 import classes from "./Profile.module.css";
+import MyPosts from "./MyPosts/MyPosts";
 
-const Content = () => {
+const Profile = () => {
   return (
     <div className={classes.content}>
       <div>
@@ -11,13 +12,8 @@ const Content = () => {
         />
       </div>
       <div>ava + discription</div>
-      <div>My posts</div>
-      <div>New posts</div>
-      <div className="posts">
-        <div className={classes.item}>Post 1</div>
-        <div className={classes.item}>Post 2</div>
-      </div>
+      <MyPosts />
     </div>
   );
 };
-export default Content;
+export default Profile;
