@@ -5,9 +5,9 @@ import MyPosts from "./MyPosts/MyPosts";
 const Profile = () => {
   return (
     <div>
-      <div>
+      <div className={classes.head}>
         <img
-          src="https://img2.fonwall.ru/o/er/monitor-montagne-mountain-multi.jpeg?route=low&h=200"
+          src="https://sun9-63.userapi.com/c837725/v837725884/3018c/AifvM9SRbxE.jpg"
           alt=""
         />
       </div>
